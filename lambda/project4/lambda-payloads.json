@@ -1,0 +1,8 @@
+{
+    "project4": {
+        "lambda": {
+            "hello": "hello",
+            "entity": "the entity"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: An AWS Serverless Specification template describing your function.
+Resources:
+  project4:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      FunctionName: project4
+      Description: ''
+      Handler: lambda_function.lambda_handler
+      MemorySize: 128
+      Role: 'arn:aws:iam::992501904881:role/service-role/project4-role-rdpxpk63'
+      Runtime: python3.8
+      Timeout: 3
